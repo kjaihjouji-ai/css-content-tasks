@@ -20,7 +20,24 @@ body {
 }
 
 /* BEGIN (write your solution here) */
+.form-input {
+  display: block;
+  width: 100%;
+}
 
+.form-input input,
+.form-input textarea {
+  box-sizing: border-box;
+  height: 50px;
+  padding: 10px 20px;
+
+  border: 1px solid #e2e2e2;
+}
+
+.form-input textarea {
+  height: 200px;
+  resize: none;
+}
 /* END */
 
 .btn {
